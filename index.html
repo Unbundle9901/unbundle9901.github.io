@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pizza Ordering Form</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Pizza Ordering Form</h1>
+        </header>
+
+        <section>
+            <form action="#" method="post">
+                
+                    <h2>Contact Information</h2>
+                    
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+                    
+                    
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required><br><br>
+                    
+                    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br><br>
+                    
+                
+
+
+                    <h2>Select Pizza Size</h2>
+                    <p>
+                        <label for="size">Pizza Size:</label>
+                        <select id="size" name="size" required>
+                            <option value="">Select Size</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                            <option value="xLarge">xLarge</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <h2>Select Sauce</h2>
+                        <input type="radio" id="marinara" name="sauce" value="marinara" required>
+                        <label for="marinara">Marinara</label>
+
+                        <input type="radio" id="bbq" name="sauce" value="bbq" required>
+                        <label for="bbq">BBQ</label>
+
+                        <input type="radio" id="alfredo" name="sauce" value="alfredo" required>
+                        <label for="alfredo">Alfredo</label>
+                    </p>
+
+                    <p>
+                        <h2>Select Toppings</h2>
+                        <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label>
+
+                        <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+
+                        <input type="checkbox" id="onions" name="toppings" value="onions">
+                        <label for="onions">Onions</label>
+
+                        <input type="checkbox" id="sausage" name="toppings" value="sausage">
+                        <label for="sausage">Sausage</label>
+
+                        <input type="checkbox" id="bacon" name="toppings" value="bacon">
+                        <label for="bacon">Bacon</label>
+
+                        <input type="checkbox" id="green peppers" name="toppings" value="green peppers">
+                        <label for="green peppers">Green Peppers</label>
+                    </p>
+                
+                    <p>
+                        <h2>Additional Information</h2>
+                        <textarea id="instructions" name="instructions" rows="4" cols="40">Add instructions</textarea>
+                    </p>
+
+
+                    <p>
+                        <button type="submit">Place Order</button>
+                    </p>
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <p>List of My Favorite Games</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                        <th>Developer</th>
+                        <th>Title</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Bungie</td>
+                        <td>Halo</td>
+                        <td>2001</td>
+                    </tr>
+                    <tr>
+                        <td>Halo 2</td>
+                        <td>2004</td>
+                    </tr>
+                    <tr>
+                        <td>Halo 3</td>
+                        <td>2007</td>
+                    </tr>
+                    <tr>
+                        <td>Mojang</td>
+                        <td>Minecraft</td>
+                        <td>2011</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Count: 4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+
+    </body>
+</html>
