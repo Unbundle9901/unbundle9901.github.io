@@ -1,0 +1,78 @@
+/* Body and Background */
+body {
+    background-color: lightblue;
+    font-size: 18px;
+}
+
+/* Main Header */
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Paragraph 2 - with ID selector */
+#paragraph2 {
+    width: 1000px;
+    margin: 20px;
+    padding: 20px 45px;
+    border: 5px solid rgb(205, 18, 18);
+    line-height: 1.8;
+    background-color: white;
+}
+
+/* Paragraphs with class "blue" (4th and 5th paragraphs) */
+.blue {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+/* Links in ordered lists */
+ol a {
+    color: blue;
+}
+
+/* Links in paragraphs (like w3schools link) */
+p a {
+    color: darkgreen;
+}
+
+/* Ordered List - two digit formatting */
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+ol li {
+    margin-bottom: 4px;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+}
+
+/* Table headers */
+th {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 0.5px 8px;
+}
+
+/* Table cells */
+td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px;
+}
