@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#jumpMenu {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    top: 0;
+    width: 15%;
+    height: 100vh;
+    background-color: #DAA520;
+    padding: 20px;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+#jumpMenu h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+#jumpMenu a {
+    display: block;
+    color: #0000FF;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+#jumpMenu a:hover {
+    text-decoration: none;
+}
+
+main {
+    margin-left: 15%;
+    width: 85%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 15%;
+    width: 85%;
+    background-color: #FF0000;
+    z-index: 99;
+}
+
+header > p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #000000;
+    padding: 10px;
+}
+
+header nav button {
+    background-color: #0000FF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    flex: 1;
+    max-width: 200px;
+}
+
+header nav button:hover {
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 180px 0 30px 0;
+    padding: 0 20px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+article {
+    width: 300px;
+    padding: 20px;
+}
+
+article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+article a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+article a:hover {
+    text-decoration: none;
+}
+
+#thanks {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #87CEEB;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid #000;
+    z-index: 98;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+footer address div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer address span {
+    display: inline;
+}
+
+footer a {
+    color: #87CEEB;
+}
+
+@media (max-width: 1200px) {
+    #container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #jumpMenu {
+        width: 20%;
+    }
+    
+    main {
+        margin-left: 20%;
+        width: 80%;
+    }
+    
+    header {
+        left: 20%;
+        width: 80%;
+    }
+    
+    header nav {
+        flex-wrap: wrap;
+    }
+    
+    header nav button {
+        max-width: 150px;
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+}
